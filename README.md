@@ -19,6 +19,7 @@
 - HTML
 - Javascript
 - Bootstrap
+- Jquery
 
 ---
 
