@@ -20,3 +20,34 @@ footer{
   padding: 40px;
   background: linear-gradient(90deg, #546fc3 0%, #b643b3 100%);
 }
+
+footer{
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p{
+  color: #fff;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-size: large;
+}
+
+footer .socials{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 110px;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+footer .socials #linkedin, .socials #instagram, .socials #github{
+width: 30px;
+}
